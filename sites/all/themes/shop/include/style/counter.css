@@ -1,0 +1,48 @@
+.counter{
+    width: 480px;
+    position: relative;
+    /*float: left;*/
+    height: 105px;
+    margin: 20px auto;
+
+    }
+    #counter_title {
+        text-align: center;
+        /*font-weight: bold;*/
+        font-size: 32px;
+        padding-top: 20px;
+    }
+    .counter_element{
+        background-image: url(/sites/all/themes/shop/include/images/count_item.png);
+        position: relative;
+        /*background-position: -168px -315px;*/
+        float: left;
+        width: 69px;
+        height: 105px;
+        overflow: hidden;
+        margin: 0 5px;
+        }
+        .counter_element span{
+            position: absolute;
+            font-size: 80px;
+            padding-left: 12px;
+            left: 0;
+            width: 69px;
+            height: 105px;
+            overflow: hidden;
+        }
+        .counter_element .visible{
+            top: 0;
+        }
+        .counter_element .invisible{
+            top: -70px;
+            display: none;
+        }
+
+#counter_field {
+    /*background-color: #F58634;*/
+    /*width: 400px;*/
+    padding: 2px 20px;
+    margin:40px auto 0; 
+
+}

@@ -1,0 +1,251 @@
+/**
+ * @file
+ * Styles are organized using the SMACSS technique. @see http://smacss.com/book/
+ *
+ * When you turn on CSS aggregation at admin/config/development/performance, all
+ * of these @include files will be combined into a single file.
+ */
+
+/* HTML element (SMACSS base) rules */
+@import "normalize.css";
+
+/* Layout rules */
+@import "layouts/fixed.css";
+
+/* Component (SMACSS module) rules */
+@import "components/misc.css";
+/* Optionally, add your own components here. */
+@import "print.css";
+
+/* SMACSS theme rules */
+/* @import "theme-A.css"; */
+/* @import "theme-B.css"; */
+
+a {
+	color: #2C9AB7;
+}
+#edit-search-block-form--2 {
+	width: 85%;
+}
+#search .block {
+	margin-bottom: 0;
+}
+
+#navbar .inline li {
+	padding: 0 1em;
+}
+
+#navbar .first {
+	background-image: url(/sites/all/themes/zenshop/include/images/home.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	text-indent: -9999px;
+}
+#commercial .block {
+	margin-bottom: 0px;
+}
+
+#commercial .block  img {
+	display: block;
+	margin: 0 auto;
+}
+
+.block-title {
+	text-align: center;
+}
+
+#main {
+	width: 980px;
+	margin: 20px auto;
+}
+body.not-front #pusto_mesto_cvetno{
+	display:none;
+}
+
+#mostsale table {
+	width: 100%;
+}
+
+#mostsale table img {
+	display: block;
+	margin: 0 auto;
+}
+
+.prod_name a {
+	color: #31322C;
+	text-decoration: none;
+}
+
+.toCartButton .form-submit {
+	background-color: #E85C41;
+	border: none;
+	color: #fefefe;
+	width: 110px;
+	height: 30px;
+	border-radius: 5px;
+}
+
+.toCartButton .form-submit:hover {
+	background-color: #CC4025;
+}
+
+#logistr #login, #logistr #registr {
+	text-decoration: underline;
+}
+
+.region-sidebar-first {
+	padding-left: 0;
+}
+.region-sidebar-first #block-menu-menu-menucategory {
+	background-color: #F2F2F2;
+	padding: 10px;
+}
+
+.region-sidebar-first .menu a {
+	text-decoration: none;
+	color: #31322C;
+}
+.region-sidebar-first ul   {
+	font-size: 14px;
+	padding: 0 0 0 12px;
+	margin: 0;
+/*	list-style-type: none !important;
+	list-style-image: none !important;*/
+}
+
+
+#pustoe_mesto {
+	height: 30px;
+	background-color: #B2E0ED;
+	border-bottom: 2px solid #48A8C2;
+}
+
+.pager {
+	font-size: 14px;
+}
+
+.pager a {
+	color: #31322C;
+}
+
+.view-pageproducts table {
+	width: 100%;
+}
+.view-pageproducts table img {
+	display: block;
+	margin: 0 auto;
+}
+
+.node-product-display [class*="commerce-product"]:not(.commerce-product-field-field-image-prod){
+	width: 460px;
+	float: right;
+}
+.node-product-display .commerce-product-field-field-image-prod  {
+	float: left;
+}
+.node-product-display .commerce-product-title-label{
+	display: none;
+	visibility: hidden;
+}
+.commerce-product-sku-label {
+	display: inline-block;
+	width: 80px !important;
+	float: left !important;
+}
+
+.commerce-product-title {
+	font-size: 30px;
+	margin-bottom: 15px;
+}
+
+.field-type-commerce-price {
+	color:#2C9AB7;
+	font-size: 28px;
+	margin-bottom: 20px; 
+}
+
+.node-product-display  .field-name-field-product .field-label {
+	display: none;
+}
+
+.node-product-display  .field-name-field-product #edit-submit {
+	background-color: #E85C41;
+	border: none;
+	color: #fefefe;
+	width: 110px;
+	height: 30px;
+	border-radius: 5px;
+	margin: 20px 0;
+}
+
+.node-product-display ul {
+	display: block;
+}
+
+.comments__form-title {
+	font-weight: normal;
+
+}
+.comments__title {
+	font-weight: normal;
+	}
+
+.node-product-display .comment {
+	background-color: #F2F2F2;
+	padding: 20px;
+}
+
+.product_review_info ul {
+	margin: 0;
+}
+
+.product_review_ai {
+	display: inline-block;
+	width: 795px;
+}
+.product_review_auth {
+	margin-bottom: 15px;
+	font-size: 14px;
+	color:#3B3B3B;
+}
+
+.comment p {
+	margin: 0;
+}
+
+.comment ul li {
+	width: 795px;
+	display: block;
+	margin-top: 20px;
+
+}
+.comment ul li a {
+	color: #2C9AB7;
+	font-size: 14px;
+}
+
+.username {
+	color: #2C9AB7;
+	font-size: 16px;
+}
+.comment time {
+	font-weight: bold;
+}
+
+.comment-add a{
+	color: #2C9AB7;
+	font-size: 18px;
+}
+#comments {
+	clear: both;
+}
+
+.links {
+	clear: both;
+	margin: 0;
+	padding: 20px 0 0 0;
+}
+
+.breadcrumb {
+	margin-bottom: 15px;
+}

@@ -1,0 +1,20 @@
+name = Shop
+description = theme for internet-shop
+package = Core
+version = VERSION
+core = 7.x
+stylesheets[all][] = include/style/style.css
+stylesheets[all][] = include/style/counter.css
+
+scripts[] = include/js/jquery.min.js
+scripts[] = include/js/counter.js
+scripts[] = include/js/script.js
+
+regions[navbar] = Navbar
+regions[login_menu] = Вход на сайт
+regions[content] = Контент
+regions[right_sidebar] = Правый сайдбар
+
+
+version = "7.26"
+project = "drupal"

@@ -249,3 +249,22 @@ body.not-front #pusto_mesto_cvetno{
 .breadcrumb {
 	margin-bottom: 15px;
 }
+
+.commerce-line-item-views-form table {
+	width: 100%;
+}
+
+.commerce-line-item-views-form .form-actions .form-submit {
+	/*width:110px;*/
+	/*display: inline-block;*/
+	height: 30px;
+	/*text-align: center;*/
+	color: #fefefe;
+	background-color:#E85C41;
+	border-radius: 3px;
+	margin: 0 4px;
+	border: none;
+	padding: 0 10px;
+	/*display: block;*/
+	/*line-height: 30px;*/
+}

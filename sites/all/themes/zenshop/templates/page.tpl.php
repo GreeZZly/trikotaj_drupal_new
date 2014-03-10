@@ -72,7 +72,7 @@
                 </nav>
               <?php endif; ?>
               <div id="banana-cart">
-                    <div class="block-name"><a href="cart">Корзина</a></div>
+                    <div class="block-name"><a href="/cart">Корзина</a></div>
                     <?php 
 
                     $asd = module_invoke('commerce_cart','block_view',0);
